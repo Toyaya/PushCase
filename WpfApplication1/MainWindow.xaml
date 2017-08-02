@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="460" Width="660" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
+    <Canvas Name="back" Height="420" Width="640">
+        <Image Canvas.Left="0" Canvas.Top="0" Height="70" Name="image1" Stretch="Fill" Width="80"  Source="images/7.png"/>
+        <Image Canvas.Left="80" Canvas.Top="0" Height="70" Name="image2" Stretch="Fill" Width="80"   Source="images/7.png"/>
+        <Image Canvas.Left="160" Canvas.Top="0" Height="70" Name="image3" Stretch="Fill" Width="80"  Source="images/7.png" />
+        <Image Canvas.Left="240" Canvas.Top="0" Height="70" Name="image4" Stretch="Fill" Width="80"  Source="images/7.png" />
+        <Image Canvas.Left="320" Canvas.Top="0" Height="70" Name="image5" Stretch="Fill" Width="80"   Source="images/7.png"/>
+        <Image Canvas.Left="400" Canvas.Top="0" Height="70" Name="image6" Stretch="Fill" Width="80"   Source="images/7.png"/>
+        <Image Canvas.Left="480" Canvas.Top="0" Height="70" Name="image7" Stretch="Fill" Width="80"   Source="images/7.png"/>
+        <Image Canvas.Left="560" Canvas.Top="0" Height="70" Name="image8" Stretch="Fill" Width="80"  Source="images/7.png" />
+        <Image Canvas.Left="0" Canvas.Top="70" Height="70" Name="image9" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="0" Canvas.Top="140" Height="70" Name="image10" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="0" Canvas.Top="210" Height="70" Name="image11" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="0" Canvas.Top="280" Height="70" Name="image12" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="0" Canvas.Top="350" Height="70" Name="image13" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="80" Canvas.Top="350" Height="70" Name="image14" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="160" Canvas.Top="350" Height="70" Name="image15" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="240" Canvas.Top="350" Height="70" Name="image16" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="320" Canvas.Top="350" Height="70" Name="image17" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="400" Canvas.Top="350" Height="70" Name="image18" Stretch="Fill" Width="80"  Source="images/7.png"/>
+        <Image Canvas.Left="480" Canvas.Top="350" Height="70" Name="image19" Stretch="Fill" Width="80"  Source="images/7.png"/>
+        <Image Canvas.Left="560" Canvas.Top="350" Height="70" Name="image20" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="560" Canvas.Top="280" Height="70" Name="image21" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="560" Canvas.Top="210" Height="70" Name="image22" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="560" Canvas.Top="140" Height="70" Name="image23" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="560" Canvas.Top="70" Height="70" Name="image24" Stretch="Fill" Width="80" Source="images/7.png" />
+        <Image Canvas.Left="160" Canvas.Top="140" Height="70" Name="image25" Stretch="Fill" Width="80"  Source="images/7.png"/>
+        <Image Canvas.Left="240" Canvas.Top="140" Height="70" Name="image26" Stretch="Fill" Width="80"  Source="images/7.png"/>
+        <Image Canvas.Left="320" Canvas.Top="140" Height="70" Name="image27" Stretch="Fill" Width="80" Source="images/7.png" />
+
+
+        <Image Canvas.Left="240" Canvas.Top="280" Height="70" Name="image38" Stretch="Fill" Width="80"  Source="images/2.jpg" Tag="box"/>
+        <Image Canvas.Left="80" Canvas.Top="280" Height="70" Name="image28" Stretch="Fill" Width="80"  Source="images/10.png" Tag="biaoji3"/>
+        <Image Canvas.Left="160" Canvas.Top="280" Height="70" Name="image29" Stretch="Fill" Width="80"  Source="images/10.png" Tag="biaoji4"/>
+<Image Canvas.Left="80" Canvas.Top="210" Height="70" Name="image30" Stretch="Fill" Width="80"  Source="images/10.png" Tag="biaoji2"/>
+        <Image Canvas.Left="160" Canvas.Top="210" Height="70" Name="image32" Stretch="Fill" Width="80"  Source="images/10.png" Tag="biaoji1"/>
+
+        <Image Canvas.Left="80" Canvas.Top="140" Height="70" Name="image34" Stretch="Fill" Width="80"  Source="images/2.jpg" Tag="box"/>
+        <Image Canvas.Left="240" Canvas.Top="210" Height="70" Name="image35" Stretch="Fill" Width="80"  Source="images/2.jpg" Tag="box"/>
+        <Image Canvas.Left="400" Canvas.Top="210" Height="70" Name="image36" Stretch="Fill" Width="80"  Source="images/2.jpg" Tag="box"/>
+        <Image Canvas.Left="240" Canvas.Top="70" Height="70" Name="people" Stretch="Fill" Width="80"  Source="images/5.png"/>
+
+    </Canvas>
+</Window>
